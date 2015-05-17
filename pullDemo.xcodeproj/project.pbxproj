@@ -14,6 +14,7 @@
 		E9F190751B08322F004D6004 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F190741B08322F004D6004 /* Images.xcassets */; };
 		E9F190781B08322F004D6004 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9F190761B08322F004D6004 /* LaunchScreen.xib */; };
 		E9F190841B08322F004D6004 /* pullDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F190831B08322F004D6004 /* pullDemoTests.m */; };
+		E9F1908E1B08331B004D6004 /* profile@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9F1908D1B08331B004D6004 /* profile@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		E9F1907D1B08322F004D6004 /* pullDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pullDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F190821B08322F004D6004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9F190831B08322F004D6004 /* pullDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pullDemoTests.m; sourceTree = "<group>"; };
+		E9F1908D1B08331B004D6004 /* profile@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "profile@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				E9F1906F1B08322E004D6004 /* ViewController.m */,
 				E9F190711B08322E004D6004 /* Main.storyboard */,
 				E9F190741B08322F004D6004 /* Images.xcassets */,
+				E9F1908D1B08331B004D6004 /* profile@2x.jpg */,
 				E9F190761B08322F004D6004 /* LaunchScreen.xib */,
 				E9F190671B08322E004D6004 /* Supporting Files */,
 			);
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F1908E1B08331B004D6004 /* profile@2x.jpg in Resources */,
 				E9F190731B08322E004D6004 /* Main.storyboard in Resources */,
 				E9F190781B08322F004D6004 /* LaunchScreen.xib in Resources */,
 				E9F190751B08322F004D6004 /* Images.xcassets in Resources */,
@@ -348,6 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = pullDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = pullDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
